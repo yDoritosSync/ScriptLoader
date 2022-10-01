@@ -2,7 +2,9 @@ repeat wait() until game:IsLoaded()
 local PlaceId = game.PlaceId
 
 if PlaceId == 6152116144 or PlaceId == 5956785391 then
-	
-end
+  loadstring(game:HttpGet"https://raw.githubusercontent.com/yDoritosSync/DoritosHub/main/DoritosHub")()
+elseif PlaceId == 2753915549 or PlaceId == 4442272183 or PlaceId == 7449423635 then
+  loadstring(game:HttpGet"https://raw.githubusercontent.com/yDoritosSync/BF/main/DoritosHub")()
+elseif PlaceId == 6938803436 then
+ loadstring(game:HttpGet"https://raw.githubusercontent.com/yDoritosSync/AnimeDimen/main/Alibaba")() 
 
-loadstring(game:HttpGet"https://raw.githubusercontent.com/yDoritosSync/ScriptLoader/main/DoritosHub")()
